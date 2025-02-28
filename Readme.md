@@ -1,162 +1,173 @@
 # Level 1 Practice Programs
 
 ## 1. Find Harry's Age
-```python
-# Given
-birth_year = 2000
-current_year = 2024
-# Output
-print(f"Harry's age in 2024 is {current_year - birth_year}")
-```
+Write a program to find the age of Harry if the birth year is 2000. Assume the Current Year is 2024.
 
+**Input:** None  
+**Output:** Harry's age in 2024 is ___
+
+---
 ## 2. Calculate Sam's Average PCM Marks
-```python
-# Given
-maths = 94
-physics = 95
-chemistry = 96
-# Output
-average = (maths + physics + chemistry) / 3
-print(f"Sam’s average mark in PCM is {average}")
-```
+Sam’s marks: Maths = 94, Physics = 95, Chemistry = 96 out of 100. Find the average percent mark in PCM.
 
+**Input:** None  
+**Output:** Sam’s average mark in PCM is ___
+
+---
 ## 3. Convert Kilometers to Miles
-```python
-# Given
-km = 10.8
-# Output
-miles = km / 1.6
-print(f"The distance {km} km in miles is {miles}")
-```
+Convert the distance of 10.8 kilometers to miles. (1 km = 1.6 miles)
 
+**Input:** None  
+**Output:** The distance ___ km in miles is ___
+
+---
 ## 4. Calculate Profit and Profit Percentage
-```python
-# Given
-cost_price = 129
-selling_price = 191
-# Output
-profit = selling_price - cost_price
-profit_percentage = (profit / cost_price) * 100
-print(f"The Cost Price is INR {cost_price} and Selling Price is INR {selling_price}\nThe Profit is INR {profit} and the Profit Percentage is {profit_percentage}%")
-```
+Given cost price INR 129 and selling price INR 191, find profit and profit percentage.
 
+**Input:** None  
+**Output:**  
+- The Cost Price is INR ___ and Selling Price is INR ___  
+- The Profit is INR ___ and the Profit Percentage is ___
+
+---
 ## 5. Divide Pens Equally
-```python
-# Given
-pens = 14
-students = 3
-# Output
-pens_per_student = pens // students
-remaining_pens = pens % students
-print(f"The Pen Per Student is {pens_per_student} and the remaining pen not distributed is {remaining_pens}")
-```
+Divide 14 pens among 3 students equally and find the remaining pens.
 
+**Input:** None  
+**Output:** The Pen Per Student is ___ and the remaining pen not distributed is ___
+
+---
 ## 6. Calculate Discount on Course Fee
-```python
-# Given
-fee = 125000
-discount_percent = 10
-# Output
-discount_amount = (fee * discount_percent) / 100
-discounted_fee = fee - discount_amount
-print(f"The discount amount is INR {discount_amount} and final discounted fee is INR {discounted_fee}")
-```
+University charges INR 125000 for a course with a 10% discount. Find the discounted amount and final fee.
 
+**Input:** None  
+**Output:** The discount amount is INR ___ and final discounted fee is INR ___
+
+---
 ## 7. Compute Volume of Earth
-```python
-import math
-# Given
-radius = 6378
-# Output
-volume_km3 = (4/3) * math.pi * (radius ** 3)
-volume_miles3 = volume_km3 / (1.6 ** 3)
-print(f"The volume of earth in cubic kilometers is {volume_km3} and cubic miles is {volume_miles3}")
-```
+Calculate Earth's volume in km³ and miles³. (Radius of Earth = 6378 km)
 
+**Input:** None  
+**Output:** The volume of earth in cubic kilometers is ____ and cubic miles is ____
+
+---
 ## 8. Convert User Input Kilometers to Miles
-```python
-# Input
-km = float(input("Enter distance in km: "))
-# Output
-miles = km / 1.6
-print(f"The total miles is {miles} miles for the given {km} km")
-```
+Take user input in kilometers and convert it to miles.
 
+**Input:** km  
+**Output:** The total miles is ___ miles for the given ___ km
+
+---
 ## 9. Calculate Discount Based on User Input
-```python
-# Input
-fee = float(input("Enter fee amount: "))
-discount_percent = float(input("Enter discount percentage: "))
-# Output
-discount_amount = (fee * discount_percent) / 100
-discounted_fee = fee - discount_amount
-print(f"The discount amount is INR {discount_amount} and final discounted fee is INR {discounted_fee}")
-```
+Take user input for student fee and discount percentage and compute the final discounted fee.
 
+**Input:** fee, discountPercent  
+**Output:** The discount amount is INR ___ and final discounted fee is INR ___
+
+---
 ## 10. Convert Height from cm to Feet and Inches
-```python
-# Input
-height_cm = float(input("Enter height in cm: "))
-# Output
-inches = height_cm / 2.54
-feet = int(inches // 12)
-inches = inches % 12
-print(f"Your Height in cm is {height_cm} while in feet is {feet} and inches is {inches}")
-```
+Take user input for height in cm and convert it into feet and inches.
 
+**Input:** height  
+**Output:** Your Height in cm is ___ while in feet is ___ and inches is ___
+
+---
 ## 11. Basic Calculator for Arithmetic Operations
-```python
-# Input
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-# Output
-print(f"Addition: {num1 + num2}, Subtraction: {num1 - num2}, Multiplication: {num1 * num2}, Division: {num1 / num2}")
-```
+Take two floating-point numbers and perform addition, subtraction, multiplication, and division.
 
+**Input:** number1, number2  
+**Output:** The addition, subtraction, multiplication, and division value of 2 numbers ___ and ___ is ___, ____, ____, and ___
+
+---
 ## 12. Find Area of a Triangle
-```python
-# Input
-base = float(input("Enter base: "))
-height = float(input("Enter height: "))
-# Output
-area_cm = (1/2) * base * height
-area_inches = area_cm / 2.54**2
-print(f"Area in cm²: {area_cm}, Area in inches²: {area_inches}")
-```
+Take base and height in cm to find the area of a triangle in square inches and square centimeters.
 
+**Input:** base, height  
+**Output:** The Area of the triangle in sq in is ___ and sq cm is ___
+
+---
 ## 13. Find Side of Square from Perimeter
-```python
-# Input
-perimeter = float(input("Enter perimeter: "))
-# Output
-side = perimeter / 4
-print(f"The length of the side is {side} whose perimeter is {perimeter}")
-```
+Take user input for the perimeter and find the side length of the square.
 
+**Input:** perimeter  
+**Output:** The length of the side is ___ whose perimeter is ____
+
+---
 ## 14. Convert Feet to Yards and Miles
-```python
-# Input
-distance_feet = float(input("Enter distance in feet: "))
-# Output
-yards = distance_feet / 3
-miles = yards / 1760
-print(f"Distance in yards: {yards}, Distance in miles: {miles}")
-```
+Convert distance in feet to yards and miles.
 
+**Input:** distanceInFeet  
+**Output:** The distance in yards is ___ while the distance in miles is ___
+
+---
 ## 15. Calculate Total Purchase Price
-```python
-# Input
-unit_price = float(input("Enter unit price: "))
-quantity = int(input("Enter quantity: "))
-# Output
-total_price = unit_price * quantity
-print(f"The total purchase price is INR {total_price} if the quantity {quantity} and unit price is INR {unit_price}")
-```
+Take user input for unit price and quantity to calculate the total price.
 
+**Input:** unitPrice, quantity  
+**Output:** The total purchase price is INR ___ if the quantity ___ and unit price is INR ___
+
+---
 ## 16. Find Maximum Handshakes Among N Students
-```python
-# Input
-num_students = int(input("Enter number of students: "))
-# Output
-handshakes = (num_students * (num_students - 1)) // 2
-print(f"The maximum number of handshakes is {handshakes}")
+Find the maximum number of handshakes among N students using the formula (n * (n - 1)) / 2.
+
+**Input:** numberOfStudents  
+**Output:** The maximum number of handshakes is ___
+
+---
+
+# Level 2 Practice Programs
+
+## 1. Basic Calculator
+Perform addition, subtraction, multiplication, and division on two floating-point numbers.
+
+**Input:** number1, number2  
+**Output:** The addition, subtraction, multiplication, and division value of 2 numbers ___ and ___ is ___, ____, ____, and ___
+
+---
+## 2. Find Area of a Triangle
+Take base and height in cm and find the area of a triangle in square inches and square centimeters.
+
+**Input:** base, height  
+**Output:** The Area of the triangle in sq in is ___ and sq cm is ___
+
+---
+## 3. Find Side of Square from Perimeter
+Find the side length of a square using the given perimeter.
+
+**Input:** perimeter  
+**Output:** The length of the side is ___ whose perimeter is ____
+
+---
+## 4. Convert Feet to Yards and Miles
+Convert the distance provided in feet to yards and miles.
+
+**Input:** distanceInFeet  
+**Output:** The distance in yards is ___ while the distance in miles is ___
+
+---
+## 5. Calculate Total Purchase Price
+Take user input for unit price and quantity, then calculate the total price.
+
+**Input:** unitPrice, quantity  
+**Output:** The total purchase price is INR ___ if the quantity ___ and unit price is INR ___
+
+---
+## 6. Quotient and Remainder of Two Numbers
+Take two numbers and print their quotient and remainder.
+
+**Input:** number1, number2  
+**Output:** The Quotient is ___ and Reminder is ___ of two number ___ and ___
+
+---
+## 7. Integer Operations
+Take input values for a, b, and c and compute the following operations: a + b * c, a * b + c, c + a / b, and a % b + c.
+
+**Input:** a, b, c  
+**Output:** The results of Int Operations are ___, ___, and ___
+
+---
+## 8. Double Precision Operations
+Perform the same integer operations but using double precision values.
+
+**Input:** a, b, c (double)  
+**Output:** The results of Double Operations are ___, ___, and ___
